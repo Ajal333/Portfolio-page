@@ -1,0 +1,219 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+.body{
+margin:20px;
+   
+}
+.noscroll{
+ position:absolute;
+    top: 100px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;   
+	}
+
+.header{
+background-color:#177abe;
+text-align:center;
+padding:20px;
+color:white;
+}
+
+.topnav{
+background-color:#4baef8;
+color:black;
+overflow:hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #2296ed;
+    color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 15px;
+	text-align:center;
+	background-color:#eaf1dd;
+	margin:15px;
+}
+
+.column.middle{
+	width:75%;
+	}
+
+.column.side{
+width:20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+	width: 100%;
+    }
+}
+	/* Style the footer */
+.footer {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+	color:white;
+}
+
+.small-image{
+    width:450px;
+    margin:10px;
+  }
+  
+  .button{
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  background-color:red;
+  color:white;
+  cursor:pointer;
+  text-align:center;
+  padding:10px;
+  font-size:15px;
+  border-radius:18px;;
+  }
+  
+  .button1{
+  background-color: white;
+  color: red;
+	border:2px solid red;
+	border-radius:18px;
+	}
+	
+	.button:hover{
+	background-color:red;
+	color:white;
+	}
+	
+	.text-center{
+	align:center;
+	}
+	
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-algn: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background:white ;
+  color: #55ACEE;
+}
+.fa-quora{
+  background: white;
+  color: #AA2200;
+}
+.fa-github{
+  background: white;
+  color: #4078c0;
+}
+.fa-instagram{
+  background:white ;
+  color: #125688;
+}
+
+.text{
+font-family:cursive;
+color:red;
+}
+
+.image{
+width:400px;
+}
+
+.text1{
+font-family:Gruen Lemonograf;
+color:blue;
+font-size:50px;
+}
+
+</style>
+<div class="header"><h2>My Portfolio Webpage</h2></div>
+<div class="noscroll">
+<div class="body">
+<div class="topnav">
+  <a href="#contact">Contact</a>
+  <a href="#portfolio">Porfolio</a>
+</div>
+<div class="row">
+<div class="column middle">
+<a name="portfolio"></a>
+<h1 class="text1">PORTFOLIO</h1>
+<img class="img-responsive small-image" src="Screenshot (91).png" style="float:left"> 
+<img class="img-responsive small-image" src="Screenshot (92).png"style="float:left">
+<img class="img-responsive small-image" src="Screenshot (93).png"style="float:left">
+<h3 style="float:left" class="text"> This is one of the webpage that i developed </h3>
+<h3 style="float:left" class="text"> using HTML and CSS. </h3>
+<h3 style="float:left" class="text"> Here's a link to the page: </h3>
+<h3 style="float:left" class="text"> <a target="_blank" href="https://ajal333.github.io/Sachin-Tribute-page/Tribute%20page.html">Tribute Page</a></h3>
+</div>
+<div class="column side">
+<h1 class="text">About me:</h1>
+<h4 class="text">I am an amateur programmer who likes to build a good webpages and lot of other programs. This is one of my few webpages. I have just started 
+programming and would like to continue coding. 
+</h4>
+<img class="img-responsive image" src="IMG_0155 (2)_polarr.jpg">
+
+</div>
+</div>
+<a name="contact"></a>
+</div>
+<div class="footer">
+<h3>Contact :</h3> <br><br><a target="_blank" href="https://www.facebook.com/ajal.apoos" class="fa fa-facebook"></a>
+ <a target="_blank" href="https://twitter.com/ajmessial10" class="fa fa-twitter"></a>
+<a target="_blank" href="https://www.quora.com/profile/Ajal-Apoos"class="fa fa-quora"></a>
+ <a target="_blank" href="https://github.com/Ajal333" class="fa fa-github"></a>
+ <a target="_blank" href="https://www.instagram.com/im_ajal/" class="fa fa-instagram"></a>
+ <h3 align="center">Write me on&nbsp &nbsp<a target="_blank" href=mailto:"ajmessial10@gmail.com"><button class="button button1">Gmail</button></a></h3>
+</div>
+</div>
+
